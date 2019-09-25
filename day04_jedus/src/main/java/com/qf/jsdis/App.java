@@ -14,9 +14,9 @@ public class App {
 //        System.out.println(name);
 
         //设置字符串类型
-//        jedis.set("height" ,"310");
-//        String height = jedis.get("height");
-//        System.out.println(height);
+        jedis.set("height" ,"310");
+        String height = jedis.get("height");
+        System.out.println(height);
 //        Long hset=null;
 //        hset = jedis.hset("preson", "name", "zhangsan");
 //        hset = jedis.hset("preson","age","20");
